@@ -1,0 +1,48 @@
+.brand {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.08em;
+  color: var(--graphite);
+  font-weight: 900;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  line-height: 0.85;
+  letter-spacing: -0.075em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.brand__slash {
+  color: var(--orange);
+  font-family: var(--mono);
+  font-weight: 700;
+  letter-spacing: -0.2em;
+  transform: translateY(-0.04em);
+}
+
+.brand__word--rush {
+  color: var(--cobalt);
+}
+
+.brand--inverted {
+  color: var(--ice);
+}
+
+.brand--inverted .brand__word--rush {
+  color: var(--ice);
+}
+
+.brand--compact {
+  font-size: 1.15rem;
+  letter-spacing: -0.06em;
+}
+
+@media (max-width: 560px) {
+  .brand {
+    font-size: 1.5rem;
+  }
+
+  .brand--compact {
+    font-size: 1rem;
+  }
+}

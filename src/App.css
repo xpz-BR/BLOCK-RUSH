@@ -1,0 +1,22 @@
+.app-shell {
+  position: relative;
+  min-height: 100svh;
+  overflow-x: clip;
+}
+
+.app-shell::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    var(--orange) 0 33.33%,
+    var(--cobalt) 33.33% 66.66%,
+    var(--graphite) 66.66% 100%
+  );
+  z-index: 200;
+  pointer-events: none;
+}

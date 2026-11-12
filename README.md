@@ -140,8 +140,7 @@ Todos os ativos, preços, eventos e resultados são **simulados**. BTC, ETH, AQU
 ## Créditos
 
 - **Criadores:** Vitor e Clara.
-- **Desenvolvimento:** XPZ Dev.
-- **Identidade:** xispedev.
+- **Desenvolvimento:** xpz (Vitor).
 
 Documentos de apoio:
 
